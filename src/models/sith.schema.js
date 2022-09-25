@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = (sequelizeDatabase, DataTypes) => {
-  return sequelizeDatabase.define('jedis', {
+  return sequelizeDatabase.define('sith', {
     name: {
       type: DataTypes.STRING,
       allowNull: false,
@@ -14,6 +14,5 @@ module.exports = (sequelizeDatabase, DataTypes) => {
       type: DataTypes.STRING,
       allowNull: true,
     },
-
   });
 };
